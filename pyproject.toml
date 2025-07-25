@@ -1,12 +1,13 @@
 [project]
 name = "quran-video-generation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Program to make Quran videos"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pillow>=11.3.0",
     "pydantic>=2.11.7",
+    "questionary>=2.1.0",
     "requests>=2.32.4",
     "tqdm>=4.67.1",
 ]
