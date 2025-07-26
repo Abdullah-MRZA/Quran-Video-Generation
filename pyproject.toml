@@ -5,6 +5,8 @@ description = "Program to make Quran videos"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "kivy>=2.3.1",
+    "moviepy>=2.2.1",
     "pillow>=11.3.0",
     "pydantic>=2.11.7",
     "questionary>=2.1.0",
